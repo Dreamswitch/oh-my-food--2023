@@ -1,0 +1,12 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "projet 3 de la formation OC Développeur d'application Front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss ./styles/style.css --style expanded"
+  },
+  "author": "wilfried jeambel",
+  "license": "ISC"
+}
