@@ -1,0 +1,11 @@
+.header-main{
+    width: 100%;
+
+    &__back-link{
+        padding:  26px 22px 0 22px;
+    }
+
+    &__logo{
+        padding: 23px 0 0 calc((100vw - 167px  - 60px)/2);
+    }
+}
