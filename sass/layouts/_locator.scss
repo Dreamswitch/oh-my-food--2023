@@ -1,0 +1,16 @@
+.locator{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:17px ;
+    background: #EAEAEA;
+
+    &__address{
+        color: #000;
+        opacity: 0.8;
+        font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
