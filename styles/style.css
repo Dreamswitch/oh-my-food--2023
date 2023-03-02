@@ -60,9 +60,12 @@ table {
   justify-content: space-between;
   align-items: flex-end;
   padding: 23px 0 12px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 .header-main__back-link {
   height: 100%;
+  margin-left: 22px;
 }
 .header-main__logo {
   margin-right: calc((100vw - 167px) / 2);
