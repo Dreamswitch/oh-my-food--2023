@@ -254,6 +254,7 @@ h3 {
 .restaurant {
   padding: 54px 0 64px 0;
   font-family: "Roboto";
+  background: #F7F7F7;
 }
 .restaurant__short-card-container {
   margin-top: 22px;
