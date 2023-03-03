@@ -48,3 +48,36 @@
         margin-left: calc(50vw - (340px / 2));
     }
 }
+
+.restaurant{
+    padding: 54px 0 64px 0;
+    font-family: 'Roboto';
+
+
+    &__short-card-container{
+        margin-top: 22px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px ;
+    }
+    
+
+    & h2{
+        margin-left: calc(50vw - (335px / 2));
+    }
+
+    & .card-thumbmail__header__flag--custom{
+        color : #008766;
+        background-color: #99E2D0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    & .card-thumbmail__main__localisation--custom{
+        font-weight: 300;
+        font-size: 17px;
+    }
+
+}
