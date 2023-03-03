@@ -1,0 +1,38 @@
+.footer-main{
+    background:#353535;
+    padding:22px 0 24px 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+    & a{
+        text-decoration: none;
+        color: unset;
+    }
+
+
+    &__logo{
+        font-family: 'Shrikhand';
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    &__links{
+        margin-top: 17px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        font-weight: 500;
+        font-size: 16px;
+
+        &__link a{
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    & .container--footer{
+        width: 375px;
+    }
+}
+

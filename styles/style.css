@@ -53,6 +53,10 @@ table {
   border-spacing: 0;
 }
 
+html {
+  font-family: "Roboto";
+}
+
 h1 {
   font-family: "Roboto";
   font-weight: 700;
@@ -188,6 +192,38 @@ h3 {
 }
 .header-main__logo {
   margin-right: calc((100vw - 167px) / 2);
+}
+
+.footer-main {
+  background: #353535;
+  padding: 22px 0 24px 25px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+.footer-main a {
+  text-decoration: none;
+  color: unset;
+}
+.footer-main__logo {
+  font-family: "Shrikhand";
+  font-weight: 400;
+  font-size: 18px;
+}
+.footer-main__links {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-main__links__link a {
+  display: flex;
+  gap: 10px;
+}
+.footer-main .container--footer {
+  width: 375px;
 }
 
 .locator {
