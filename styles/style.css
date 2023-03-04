@@ -270,6 +270,7 @@ a {
   align-items: center;
   gap: 17px;
   background: #EAEAEA;
+  padding-right: 28px;
 }
 .locator__address {
   color: #000;
@@ -305,7 +306,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 54px;
 }
 .cta__title {
   margin-top: 39px;
@@ -315,7 +315,7 @@ a {
 }
 .cta__description {
   margin-top: 12px;
-  margin-bottom: 53px;
+  margin-bottom: 33px;
   width: 335px;
   font-family: "Roboto";
   font-weight: 300;
