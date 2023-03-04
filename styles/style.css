@@ -62,28 +62,6 @@ a {
   color: unset;
 }
 
-h1 {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-}
-
-h2 {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-}
-
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-}
-
 .btn--primary {
   display: flex;
   align-items: center;
@@ -108,6 +86,7 @@ h3 {
   background: #F7F7F7;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
   border-radius: 18px;
+  margin-left: 15px;
 }
 .step-card__number {
   position: absolute;
@@ -137,6 +116,7 @@ h3 {
   width: 335px;
   border-radius: 15px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .card-thumbmail__header {
   width: 100%;
@@ -168,6 +148,55 @@ h3 {
   height: 24px;
 }
 
+.card-menu-validate {
+  width: 349px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.card-menu-validate__content {
+  padding: 12px 21px 12px 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+}
+.card-menu-validate__content__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-menu-validate__content__description__details {
+  width: 290px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.card-menu-validate:hover .card-menu-validate__validation {
+  width: 59px;
+}
+.card-menu-validate:hover .card-menu-validate__content__description__details {
+  width: 210px;
+}
+.card-menu-validate:hover .card-menu-validate__content__title {
+  width: 210px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.card-menu-validate__validation {
+  width: 0;
+  padding: 22px 0;
+  background: #99E2D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .svg--superposition {
   position: relative;
 }
@@ -194,6 +223,9 @@ h3 {
 .header-main__back-link {
   height: 100%;
   margin-left: 22px;
+}
+.header-main__back-link--hidden {
+  visibility: hidden;
 }
 .header-main__logo {
   margin-right: calc((100vw - 167px) / 2);
@@ -245,6 +277,26 @@ h3 {
   font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   font-size: 16px;
+}
+
+.home h1 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.home h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.home h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .cta {
@@ -317,6 +369,95 @@ h3 {
 .restaurant .card-thumbmail__main__localisation--custom {
   font-weight: 300;
   font-size: 17px;
+}
+
+.menu-palette h1 {
+  font-family: "Shrikhand";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41px;
+}
+.menu-palette h2 {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.menu-palette h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.banner {
+  height: 254px;
+}
+.banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  position: relative;
+  width: 100%;
+  background: #F7F7F7;
+  padding-bottom: 40px;
+}
+.menu:before {
+  display: block;
+  width: 100vw;
+  height: 40px;
+  content: " ";
+  border-radius: 40px 40px 0px 0px;
+  background-color: #F7F7F7;
+  position: absolute;
+  top: -35px;
+  z-index: 1;
+}
+.menu__header {
+  width: 318px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: calc(50vw - 159px - 10px);
+  margin-bottom: 29px;
+}
+.menu__main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu__main__step {
+  margin-bottom: 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.menu__main__step__title {
+  position: relative;
+  margin-bottom: 8px;
+}
+.menu__main__step__title::after {
+  position: absolute;
+  content: " ";
+  width: 40px;
+  height: 3px;
+  background: #99E2D0;
+  bottom: -10px;
+  left: 0;
+}
+.menu__main__cta {
+  display: flex;
+  justify-content: center;
+}
+.menu__main__cta .btn--primary {
+  padding: 0 49px 0 49px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

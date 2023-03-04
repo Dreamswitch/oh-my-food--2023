@@ -8,6 +8,7 @@
     background: #F7F7F7;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
     border-radius: 18px;
+    margin-left: 15px;
 
     &__number{
         position: absolute;
@@ -40,6 +41,8 @@
     width: 335px;
     border-radius: 15px ;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
 
     &__header{
         width: 100%;
@@ -74,6 +77,72 @@
             width:24px;
             height: 24px;
         }
+
+    }
+}
+
+.card-menu-validate{
+    width: 349px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+
+
+
+    &__content{
+        padding:12px 21px 12px 11px ;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex: 1;
+
+        &__description{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &__details{
+                width: 290px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+
+
+        }
+
+    }
+
+    &:hover{
+
+        & .card-menu-validate__validation{
+            width: 59px;
+        }
+
+        & .card-menu-validate__content__description__details{
+            width: 210px;
+        }
+
+        & .card-menu-validate__content__title{
+            width: 210px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+
+
+    &__validation{
+        width: 0;
+        padding: 22px 0;
+        background: #99E2D0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 }

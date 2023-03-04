@@ -11,6 +11,10 @@
     &__back-link{
         height: 100%;
         margin-left: 22px;
+
+        &--hidden{
+            visibility: hidden;
+        }
     }
 
     &__logo{
