@@ -326,7 +326,7 @@ a {
 }
 .cta a {
   text-decoration: none;
-  color: none;
+  color: unset;
 }
 
 .fonctionnement {
